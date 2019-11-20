@@ -1,0 +1,3 @@
+= 在Java/Kotlin项目中常用的git行为配置文件
+
+将 `.gitignore` 与 `.gitattributes` 拷贝到项目根目录下即可
