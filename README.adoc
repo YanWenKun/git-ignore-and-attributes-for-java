@@ -1,3 +1,4 @@
 = 在 Java/Kotlin 项目中常用的 git 行为配置文件
 
-将 `.gitignore` 与 `.gitattributes` 拷贝到项目根目录下即可
+使用方法： +
+将 `.gitignore` 与 `.gitattributes` 复制到项目根目录下即可，Git 会自动采用配置文件中的行为策略。
