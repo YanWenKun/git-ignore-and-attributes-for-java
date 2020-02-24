@@ -14,7 +14,7 @@
 # 举例说明：
 # text 表示将所有 .txt 扩展名的文件视为纯文本文件
 # eol=lf 表示强制以 LF（即 \n） 作为换行符
-*.txt text eol=lf
+*.txt text
 
 # 指定 CRLF 换行符
 *.cmd text eol=crlf
