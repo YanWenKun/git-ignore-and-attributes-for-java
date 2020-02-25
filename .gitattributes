@@ -12,7 +12,7 @@
 * text=auto eol=lf
 
 # 举例说明：
-# text 表示将所有 .txt 扩展名的文件视为纯文本文件
+# text 表示将所有 .adoc 扩展名的文件视为纯文本文件
 # eol=lf 表示强制以 LF（即 \n） 作为换行符
 *.adoc text eol=lf
 
@@ -32,7 +32,6 @@
 *.json text eol=lf
 *.jsp text eol=lf
 *.kt text eol=lf
-*.kts text eol=lf
 *.kts text eol=lf
 *.map text eol=lf
 *.md text eol=lf
