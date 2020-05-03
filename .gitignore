@@ -1,7 +1,7 @@
 ### Java／Kotlin／Spring／Vert.x 项目常用 .gitignore 模板 ###
 ### GitHub地址： https://github.com/yanwenkun/git-ignore-and-attributes-for-java ###
 ### 整理者： code@yanwk.fun ###
-### 版本： 20191121-1 ###
+### 版本： 20200504-1 ###
 
 log/
 *.log
@@ -160,7 +160,8 @@ hs_err_pid*
 out/
 
 #### Intellij+iml 详细（将会保留一些配置文件，按需开启） ###
-## Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+## 来自： https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+## Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 ## Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 #
 ## User-specific stuff
@@ -192,6 +193,7 @@ out/
 ## auto-import.
 #.idea/artifacts
 #.idea/compiler.xml
+#.idea/jarRepositories.xml
 #.idea/modules.xml
 #.idea/*.iml
 #.idea/modules
