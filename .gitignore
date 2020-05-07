@@ -1,4 +1,4 @@
-### Java／Kotlin／Spring／Vert.x 项目常用 .gitignore 模板 ###
+### Java／Kotlin／Spring／Quarkus／Vert.x 项目常用 .gitignore 模板 ###
 ### GitHub地址： https://github.com/yanwenkun/git-ignore-and-attributes-for-java ###
 ### 整理者： code@yanwk.fun ###
 ### 版本： 20200504-2 ###
@@ -69,7 +69,6 @@ bin/
 tmp/
 *.tmp
 *.bak
-*.swp
 *~.nib
 local.properties
 .settings/
@@ -83,6 +82,7 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+nb-configuration.xml
 
 ### VS Code ###
 .vscode/*
@@ -90,6 +90,10 @@ nbdist/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+### Vim ###
+*.swp
+*.swo
 
 ### Apache Ant ###
 build.properties
@@ -105,6 +109,10 @@ Thumbs.db
 # 程序包
 *.nar
 *.ear
+
+# patch
+*.orig
+*.rej
 
 # BlueJ files
 *.ctxt
